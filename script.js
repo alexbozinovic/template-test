@@ -19,6 +19,8 @@ function hideLoading(){
     }
 }
 
+// Random quote
+
 // GET QUOTE FROM API
 async function getQuote(){
     showLoading();
@@ -47,7 +49,7 @@ async function getQuote(){
 
         // STOP LOADER AND SHOW BOX
         hideLoading();
-        
+
     }catch(error){
         getQuote();
     }
